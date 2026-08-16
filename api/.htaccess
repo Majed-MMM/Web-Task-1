@@ -1,0 +1,5 @@
+# يمنع أي شخص من فتح config.php مباشرة عبر الرابط
+<Files "config.php">
+    Order Allow,Deny
+    Deny from all
+</Files>
